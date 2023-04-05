@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cabin&family=Changa+One&family=Comfortaa:wght@500&family=Delicious+Handrawn&family=EB+Garamond&family=Patua+One&family=Shadows+Into+Light+Two&family=Unna&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+
+/*navbar part*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One');
+nav{
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	border-bottom: 2px solid black;
+	z-index: 100;
+}
+nav a{
+	text-decoration: none;
+	float: left;
+	color: black;
+	text-align: center;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Patua One', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* position: fixed; */
+}
+nav a:hover{
+	color: rgb(255, 164, 68);
+	transition: .2s ease .2s;
+}
+#current_page{
+	border-bottom:5px solid rgb(0, 0, 0);
+}
+
+.logo{
+	content: url("C:/Ansh/ISS/Project/Images/headset.png");
+	width: 50%;
+	margin: 0 0 0 0;
+}
+/* #below-nav-hr{
+	width: 100%;
+	position: fixed;
+} */
+#fire{
+	content: url("C:/Ansh/ISS/Project/Images/fire.png");
+	width: 20px;
+	margin: 0 0 0 0;
+}
+
+.top_charts{
+	position: relative;
+	margin-top: 70px;
+}
+
+.top_charts p{
+	font-family: 'Changa One', cursive;
+	font-size: 50px;
+	margin-left: 30px;
+	border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+/*Emptiness Adder*/
+#emptiness_adder{
+	position: relative;
+	margin-top: 80px;
+	margin-left: 30px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+}
+#emptiness_adder p{
+	text-align: left;
+	font-family: 'Changa One', cursive;
+	font-size: 100px;
+	margin: 0 0 0 0;
+	text-transform: uppercase;
+}
+#intro_text{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	/* margin-bottom: 0px; */
+}
+.loop{
+	content: url("C:/Ansh/ISS/Project/Images/loop.jpg");
+	width: 100px;
+	position: relative;
+	margin: 0 0 0 0;
+	display: inline-flex;
+}
+.ease_links{
+	text-align: center;
+	margin-top: 30px;
+}
+.ease_links a{
+	/* display: block; */
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	font-size: 25px;
+	font-family: 'EB Garamond', serif;
+	background-color: rgb(255, 132, 0);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	border-radius: 10px 10px 10px 10px;
+}
+.down_arrow{
+	content: url("C:/Ansh/ISS/Project/Images/down.png");
+	width: 20px;
+}
+
+/*Artists*/
+#top_artists{
+	position: relative;
+	margin-top: 50px;
+}
+.artist{
+	padding: 10px 10px 10px 10px;
+	margin-top: 0px;
+}
+#artist1{
+	content: url("C:/Ansh/ISS/Project/Images/tabla.jpg");
+	width: 300px;
+	border-radius: 20%;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 0px;
+	/* heigh */
+}
+#artist2{
+	content: url("C:/Ansh/ISS/Project/Images/piano.jpg");
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20%;
+
+}
+#artist3{
+	content: url("C:/Ansh/ISS/Project/Images/guitar.jpg");
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20%;
+
+}
+
+/*Albums*/
+.album{
+	padding: 10px 10px 10px 10px;
+}
+#album1{
+	content: url("C:/Ansh/ISS/Project/Images/tabla.jpg");
+	width: 300px;
+	border-radius: 20%;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 0px;
+	/* heigh */
+}
+#album2{
+	content: url("C:/Ansh/ISS/Project/Images/piano.jpg");
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20%;
+
+}
+#album3{
+	content: url("C:/Ansh/ISS/Project/Images/guitar.jpg");
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20%;
+
+}
+
+/*Songs*/
+.song{
+	padding: 10px 10px 10px 10px;
+}
+#song1{
+	content: url("C:/Ansh/ISS/Project/Images/tabla.jpg");
+	width: 300px;
+	border-radius: 20%;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 0px;
+	/* heigh */
+}
+#song2{
+	content: url("C:/Ansh/ISS/Project/Images/piano.jpg");
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20%;
+
+}
+#song3{
+	content: url("C:/Ansh/ISS/Project/Images/guitar.jpg");
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20%;
+
+}
+.colorspan{
+	color:rgb(79, 215, 0);
+}

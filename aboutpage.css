@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Changa+One&family=Comfortaa:wght@500&family=Delicious+Handrawn&family=EB+Garamond&family=Shadows+Into+Light+Two&family=Unna&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+
+/*navbar part*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One');
+nav{
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	border-bottom: 2px solid black;
+	z-index: 100;
+}
+nav a{
+	text-decoration: none;
+	float: left;
+	color: black;
+	text-align: center;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Patua One', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* position: fixed; */
+}
+nav a:hover{
+	color: rgb(255, 164, 68);
+	transition: .2s ease .2s;
+}
+#current_page{
+	border-bottom:5px solid rgb(0, 0, 0);
+}
+
+.logo{
+	content: url("C:/Ansh/ISS/Project/Images/headset.png");
+	width: 50%;
+	margin: 0 0 0 0;
+}
+/* #below-nav-hr{
+	width: 100%;
+	position: fixed;
+} */
+#fire{
+	content: url("C:/Ansh/ISS/Project/Images/fire.png");
+	width: 20px;
+}
+/*About Page CSS*/
+#title_artist{
+	width: 40%;
+	float: right;
+	margin-top: 30px;
+	content: url("C:/Ansh/ISS/Project/Images/shaan_no_bg.png");
+	/* margin: 0% 0% 0% 0%; */
+	/* display: inline-block; */
+}
+#initial{
+	margin-left: 30px;
+	/* height: 85vh; */
+}
+#the_bold_title{
+	color: rgb(0, 0, 0);
+	font-size: 100px;
+	font-family: 'Changa One', cursive;
+	/* margin-top: 100px; */
+	margin-bottom: 0%;
+}
+#intro_text{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	/* margin-bottom: 0px; */
+}
+
+#below-intro-buttons h3{
+	font-family: 'EB Garamond', serif;
+	display: inline-block;
+	margin-left: 0px;
+	/* margin-bottom: 0px; */
+}
+
+#below-intro-buttons #button1{
+	background: fixed;
+	background-color: rgb(140, 255, 0);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/* margin-bottom: 0px; */
+}
+a{
+	text-decoration: none;
+	color: rgb(70, 70, 70);
+	/* margin-bottom: 0px; */
+}
+
+#north_east{
+	content: url("C:/Ansh/ISS/Project/Images/north_east.png");
+	width: 15px;
+}
+/*Part 2*/
+#part_2{
+	background-color: rgb(235, 235, 235);
+	padding-left: 2%;
+	/* overflow: hidden; */
+}
+#part_2_title{
+	color: rgb(0, 0, 0);
+	font-size: 100px;
+	font-family: 'Changa One', cursive;
+	margin-bottom: 0px;
+	margin-right: 2%;
+	text-align: right;
+}
+#part_2_text{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	margin-right: 2%;
+	text-align: right;
+}
+
+#page_2_img1{
+	content: url("C:/Ansh/ISS/Project/Images/tabla.jpg");
+	width: 25%;
+	border-radius: 10%;
+	margin-left: 30px;
+}
+#page_2_img2{
+	content: url("C:/Ansh/ISS/Project/Images/piano.jpg");
+	width: 25%;
+	border-radius: 10%;
+	margin-left: 30px;
+}
+#page_2_img3{
+	content: url("C:/Ansh/ISS/Project/Images/guitar.jpg");
+	width: 30%;
+	border-radius: 10%;
+	margin-left: 30px;
+}
+/*Part 3*/
+#part_3{
+	background-color: rgb(255, 255, 255);
+	padding-left: 2%;
+	height: 100vh;
+}
+#part_3_title{
+	color: rgb(0, 0, 0);
+	font-size: 100px;
+	font-family: 'Changa One', cursive;
+	margin-bottom: 0px;
+	margin-right: 2%;
+}
+#part_3_text{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	margin-right: 2%;
+}
+
+#page_3_img1{
+	content: url("C:/Ansh/ISS/Project/Images/tabla.jpg");
+	width: 25%;
+	border-radius: 10%;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+#page_3_img2{
+	content: url("C:/Ansh/ISS/Project/Images/piano.jpg");
+	width: 25%;
+	border-radius: 10%;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+#page_3_img3{
+	content: url("C:/Ansh/ISS/Project/Images/guitar.jpg");
+	width: 30%;
+	border-radius: 10%;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+/*Footer*/
+footer{
+	background-color: grey;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	margin: 0 0 0 0;
+}
