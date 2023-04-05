@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+
+
+
+@keyframes slide1{
+
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 17%;
+        left: 1.5%;
+    }
+}
+@keyframes slide2{
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 66%;
+        left: 1.5%;
+    }
+}
+@keyframes slide3{
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 66%;
+        left: 15%;
+    }
+}
+@keyframes slide4{
+
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 10%;
+        left: 50%;
+    }
+}
+
+@keyframes slide5{
+
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 10%;
+        left: 63%;
+    }
+}
+
+@keyframes slide6{
+
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 20%;
+        left: 30%;
+    }
+}
+
+@keyframes slide7{
+
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 63%;
+        left: 34%;
+    }
+}
+
+@keyframes slide8{
+
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 68%;
+        left: 50%;
+    }
+}
+
+@keyframes slide9{
+
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 68%;
+        left: 63%;
+    }
+}
+
+@keyframes slide10{
+
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 50%;
+        left: 76%;
+    }
+}
+
+@keyframes slide11{
+
+    0%{
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 15%;
+        left: 76%;
+    }
+}
+
+@keyframes slide_text{
+
+    0%{
+        top:100%;
+        left:1.5%;
+    }
+
+    100%{
+        top: 76%;
+        left: 1.5%;
+    }
+}
+
+#Artist1{
+    animation: slide1 1s ease 0s 1 normal forwards;
+    position: absolute;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 490px;
+    height: 540px;
+    font-size: 30px;
+    transition: 0.3s;
+    
+    
+} 
+#Artist1:hover{
+    width: 500px;
+    height: 550px;
+    transform: translate(-5px, -5px);
+} 
+#Artist2{
+    animation: slide2 1s ease 0s 1 normal forwards;
+    position: absolute;
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 205px;
+    height: 250px;
+    
+    
+}
+#Artist2:hover{
+    width: 215px;
+    height: 260px;
+    transform: translate(-5px, -5px);
+}
+#Artist3{
+    animation: slide3 1s ease 0s 1 normal forwards;
+    position: absolute;
+    
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 205px;
+    height: 250px;
+    transition: 0.3s;
+   
+    
+
+}
+
+#Artist3:hover{
+    width: 215px;
+    height: 260px;
+    transform: translate(-5px, -5px);
+}
+
+#Artist4{
+    animation: slide4 1s ease 0s 1 normal forwards;
+    position: absolute;
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 205px;
+    height: 250px;
+    
+    
+}
+
+#Artist4:hover{
+    width: 215px;
+    height: 260px;
+    transform: translate(-5px, -5px);
+}
+
+#Artist5{
+    animation: slide5 1s ease 0s 1 normal forwards;
+    position: absolute;
+    
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 205px;
+    height: 250px;
+    transition: 0.3s;
+   
+    
+
+}
+#Artist5:hover{
+    width: 215px;
+    height: 260px;
+    transform: translate(-5px, -5px);
+}
+
+#Artist6{
+    animation: slide6 1s ease 0s 1 normal forwards;
+    position: absolute;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 330px;
+    height: 380px;
+    font-size: 30px;
+    transition: 0.3s;
+    
+    
+}
+
+#Artist6:hover{
+    height: 390px;
+    width: 340px;
+    transform: translate(-5px,-5px);
+}
+
+#Artist7{
+    animation: slide7 1s ease 0s 1 normal forwards;
+    position: absolute;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    font-size: 30px;
+    transition: 0.3s;
+    
+    
+}
+#Artist7:hover{
+    width: 260px;
+    height: 310px;
+    transform: translate(-5px, -5px);
+}
+
+#Artist8{
+    animation: slide8 1s ease 0s 1 normal forwards;
+    position: absolute;
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 205px;
+    height: 250px;
+    
+    
+}
+
+#Artist8:hover{
+    width:215px;
+    height: 260px;
+    transform: translate(-5px, -5px);
+}
+
+#Artist9{
+    animation: slide9 1s ease 0s 1 normal forwards;
+    position: absolute;
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 205px;
+    height: 250px;
+    
+    
+}
+
+#Artist9:hover{
+    width:215px;
+    height: 260px;
+    transform: translate(-5px, -5px);
+}
+#Artist10{
+    animation: slide10 1s ease 0s 1 normal forwards;
+    position: absolute;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 330px;
+    height: 380px;
+    font-size: 30px;
+    transition: 0.3s;
+    
+    
+}
+
+#Artist10:hover{
+    height: 390px;
+    width: 340px;
+    transform: translate(-5px,-5px);
+}
+
+#Artist11{
+    animation: slide11 1s ease 0s 1 normal forwards;
+    position: absolute;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    font-size: 30px;
+    transition: 0.3s;
+    
+    
+}
+#Artist11:hover{
+    width: 260px;
+    height: 310px;
+    transform: translate(-5px, -5px);
+}
+#text{
+    top: 40%;
+    left: 50%;
+    
+    width: 450px;
+    height: 250px;
+    color: black;
+    position: absolute;
+    font-size: 59px;
+    border-radius: 5px;
+    padding-left: 20px; 
+    font-family: 'Changa One';             
+}
+
+#top_text{
+    animation: slide_text 1s ease 0s normal forwards;
+    position: absolute;
+    font-size: 80px;
+    width: 490px;
+    height: 70px;
+    color: black;
+    
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Changa One';
+    text-align: center;
+
+}
