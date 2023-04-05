@@ -388,7 +388,7 @@
     height: 25.826446281%;
     color: black;
     position: absolute;
-    font-size: 370%;
+    font-size: 3.2vw;
     border-radius: 5px;
     padding-left: 0.7%; 
     font-family: 'Changa One';             
@@ -397,7 +397,7 @@
 #top_text{
     animation: slide_text 1s ease 0s normal forwards;
     position: absolute;
-    font-size: 400%;
+    font-size: 3.7vw;
     width: 26.543878657%;
     height: 7.231404959%;
     color: black;
