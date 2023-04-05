@@ -121,6 +121,7 @@
         top: 50%;
         left: 50%;
     }
+
     
     100%{
         top: 50%;
@@ -162,17 +163,17 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 490px;
-    height: 540px;
+    width: 26.543878657%;
+    height: 55.785123967%;
     font-size: 30px;
     transition: 0.3s;
     
     
 } 
 #Artist1:hover{
-    width: 500px;
-    height: 550px;
-    transform: translate(-5px, -5px);
+    width: 27.085590466%;
+    height: 56.818181818%;
+    transform: translate(-0.270855905%, -0.516528926%);
 } 
 #Artist2{
     animation: slide2 1s ease 0s 1 normal forwards;
@@ -182,15 +183,15 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 205px;
+    width: 11.105092091%;
     height: 250px;
     
     
 }
 #Artist2:hover{
-    width: 215px;
+    width: 11.6468039%;
     height: 260px;
-    transform: translate(-5px, -5px);
+    transform: translate(-5px, -0.270855905%);
 }
 #Artist3{
     animation: slide3 1s ease 0s 1 normal forwards;
@@ -222,16 +223,16 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 205px;
-    height: 250px;
+    width: 11.105092091% ;
+    height: 25.826446281%;
     
     
 }
 
 #Artist4:hover{
-    width: 215px;
-    height: 260px;
-    transform: translate(-5px, -5px);
+    width: 11.6468039%;
+    height: 26.859504132%;
+    transform: translate(-0.270855905%, -0.516528926%);
 }
 
 #Artist5{
@@ -242,17 +243,17 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 205px;
-    height: 250px;
+    width: 11.105092091%;
+    height: 25.826446281%;
     transition: 0.3s;
    
     
 
 }
 #Artist5:hover{
-    width: 215px;
-    height: 260px;
-    transform: translate(-5px, -5px);
+    width: 11.6468039%;
+    height: 26.859504132%;
+    transform: translate(-0.270855905%, -0.516528926%);
 }
 
 #Artist6{
@@ -263,8 +264,8 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 330px;
-    height: 380px;
+    width: 17.876489707%;
+    height: 39.256198347%;
     font-size: 30px;
     transition: 0.3s;
     
@@ -272,9 +273,9 @@
 }
 
 #Artist6:hover{
-    height: 390px;
-    width: 340px;
-    transform: translate(-5px,-5px);
+    height: 40.289256198%;
+    width: 18.418201517%;
+    transform: translate(-0.270855905%, -0.516528926%);
 }
 
 #Artist7{
@@ -285,17 +286,17 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 250px;
-    height: 300px;
+    width: 13.542795233%;
+    height: 30.991735537%;
     font-size: 30px;
     transition: 0.3s;
     
     
 }
 #Artist7:hover{
-    width: 260px;
-    height: 310px;
-    transform: translate(-5px, -5px);
+    width: 14.084507042%;
+    height: 32.024793388;
+    transform: translate(-0.270855905%, -0.516528926%);
 }
 
 #Artist8{
@@ -306,16 +307,16 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 205px;
-    height: 250px;
+    width: 11.105092091%;
+    height: 25.826446281%;
     
     
 }
 
 #Artist8:hover{
-    width:215px;
-    height: 260px;
-    transform: translate(-5px, -5px);
+    width:11.6468039%;
+    height: 26.859504132%;
+    transform: translate(-0.270855905%, -0.516528926%);
 }
 
 #Artist9{
@@ -326,16 +327,16 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 205px;
-    height: 250px;
+    width: 11.105092091%;
+    height: 25.826446281%;
     
     
 }
 
 #Artist9:hover{
-    width:215px;
-    height: 260px;
-    transform: translate(-5px, -5px);
+    width:11.6468039%;
+    height: 26.859504132%;
+    transform: translate(-0.270855905%, -0.516528926%);
 }
 #Artist10{
     animation: slide10 1s ease 0s 1 normal forwards;
@@ -345,8 +346,8 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 330px;
-    height: 380px;
+    width: 17.876489707%;
+    height: 39.256198347%;
     font-size: 30px;
     transition: 0.3s;
     
@@ -354,9 +355,9 @@
 }
 
 #Artist10:hover{
-    height: 390px;
-    width: 340px;
-    transform: translate(-5px,-5px);
+    height: 40.289256198%;
+    width: 18.418201517%;
+    transform: translate(-0.270855905%, -0.516528926%);
 }
 
 #Artist11{
@@ -367,38 +368,38 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 250px;
-    height: 300px;
+    width: 13.542795233%;
+    height: 30.991735537%;
     font-size: 30px;
     transition: 0.3s;
     
     
 }
 #Artist11:hover{
-    width: 260px;
-    height: 310px;
-    transform: translate(-5px, -5px);
+    width: 14.084507042%;
+    height: 32.024793388%;
+    transform: translate(-0.270855905%, -0.516528926%);
 }
 #text{
     top: 40%;
     left: 50%;
     
-    width: 450px;
-    height: 250px;
+    width: 24.377031419%;
+    height: 25.826446281%;
     color: black;
     position: absolute;
-    font-size: 59px;
+    font-size: 370%;
     border-radius: 5px;
-    padding-left: 20px; 
+    padding-left: 0.7%; 
     font-family: 'Changa One';             
 }
 
 #top_text{
     animation: slide_text 1s ease 0s normal forwards;
     position: absolute;
-    font-size: 80px;
-    width: 490px;
-    height: 70px;
+    font-size: 400%;
+    width: 26.543878657%;
+    height: 7.231404959%;
     color: black;
     
     border-radius: 5px;
