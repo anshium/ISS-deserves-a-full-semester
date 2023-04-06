@@ -1,0 +1,68 @@
+#album{
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+    background-color: gray;
+    animation: slide 1.5s ease-in-out 0s 1 normal forwards;
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#songs{
+    width: 900px;
+    height: 600px;
+    opacity: 0.5;
+    background-color: gray;
+    animation: slide_songs 1.5s ease-in-out 0s 1 normal forwards;
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@keyframes slide{
+    0%{
+        top: 30%;
+        left: 80%;
+    }
+    10%{
+        top:30%;
+        left:70%;
+    }
+    25%{
+        top:30%;
+        left:70%
+    }
+    95%{
+        top: 30%;
+        left:10%
+    }
+    100%{
+        top: 10%;
+        left: 10%
+    }
+}
+
+@keyframes slide_songs{
+    0%{
+        top: 15%;
+        left: 100%;
+    }
+    10%{
+        top:15%;
+        left:90%;
+    }
+    25%{
+        top:15%;
+        left:90%
+    }
+    95%{
+        top: 15%;
+        left:30%
+    }
+    100%{
+        top:30%;
+        left:30%;
+    }
+}
