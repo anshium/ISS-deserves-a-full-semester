@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cabin&family=Changa+One&family=Comfortaa:wght@500&family=Delicious+Handrawn&family=EB+Garamond&family=Patua+One&family=Shadows+Into+Light+Two&family=Unna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cabin&family=Changa+One&family=Comfortaa:wght@500&family=Delicious+Handrawn&family=EB+Garamond&family=Patua+One&family=Secular+One&family=Shadows+Into+Light+Two&family=Unna&display=swap');
+
 
 html{
 	scroll-behavior: smooth;
@@ -69,6 +70,13 @@ nav a:hover{
 	border-bottom: 3px solid rgb(0, 0, 0);
 }
 
+/* #main_photo{
+	content: url("C:/Ansh/ISS/Project/Images/tabla.jpg");
+	width: 50%;
+	border-radius: 5% 5% 5% 5%;
+	float: right;
+} */
+
 /*Emptiness Adder*/
 #emptiness_adder{
 	position: relative;
@@ -76,6 +84,7 @@ nav a:hover{
 	margin-left: 30px;
 	margin-right: 50px;
 	margin-bottom: 0px;
+	height: 100vh;
 }
 #emptiness_adder p{
 	text-align: left;
@@ -98,24 +107,29 @@ nav a:hover{
 }
 .ease_links{
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 40vh;
+	/* margin-bottom: 10px; */
 }
 .ease_links a{
 	/* display: block; */
 	text-decoration: none;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 0px;
 	font-size: 25px;
-	font-family: 'EB Garamond', serif;
-	background-color: rgb(255, 132, 0);
+	font-family: 'Secular One', sans-serif;
+	/* background-color: rgb(255, 132, 0); */
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	border-radius: 10px 10px 10px 10px;
+}
+.ease_links a:hover{
+	opacity: 0.5;
+	transition: .2s ease .1s;
 }
 .down_arrow{
 	content: url("C:/Ansh/ISS/Project/Images/down.png");
