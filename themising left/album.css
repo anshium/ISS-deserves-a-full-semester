@@ -1,0 +1,56 @@
+#top{
+    width: 95%;
+    height: 30%;
+    padding-left: 5%;
+    position: absolute;
+    margin-top: 5%;
+    /* padding-top: 1%; */
+    /* padding-bottom: 1%; */
+    /* padding-right: 20%; */
+    background-color: rgb(235,235,235);
+}
+
+body{
+    margin: 0 0 0 0;
+}
+
+#description{
+    width: 70%;
+    position: relative;
+    height:80%;
+    border: 1px solid black;
+    float: left;
+    top: 10%;
+
+}
+
+@keyframes slide_in{
+    0%{
+        top: 47%;
+        left:-100%;
+    }
+    100%{
+        top: 47%;
+        left: 0%;
+    }
+}
+
+#train{
+    height: 40%;
+    position: absolute;
+    width: 100%;
+    padding-top: 2%;
+    animation: slide_in 1s ease-out 0s 1 normal forwards;
+}
+
+#album{
+    position: relative;
+    height: 80%;
+    width: 9%;
+    border: 1px solid black;
+    float:right;
+    border-radius: 5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 0.5%;
+}
