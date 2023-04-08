@@ -4,7 +4,11 @@
 html{
 	scroll-behavior: smooth;
 }
-
+body{
+	background-image: url("C:/Ansh/ISS/Project/Images/bg_5.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
 /*navbar part*/
 @import url('https://fonts.googleapis.com/css2?family=Patua+One');
 nav{
@@ -70,12 +74,12 @@ nav a:hover{
 	border-bottom: 3px solid rgb(0, 0, 0);
 }
 
-/* #main_photo{
-	content: url("C:/Ansh/ISS/Project/Images/tabla.jpg");
-	width: 50%;
-	border-radius: 5% 5% 5% 5%;
+#main_photo{
+	content: url("C:/Ansh/ISS/Project/Images/songify.png");
 	float: right;
-} */
+	position: relative;
+	width: 50%;
+}
 
 /*Emptiness Adder*/
 #emptiness_adder{
@@ -238,4 +242,24 @@ nav a:hover{
 }
 .colorspan{
 	color:rgb(79, 215, 0);
+}
+/*Footer*/
+footer{
+	background-color: rgb(234, 234, 234);
+
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	margin: 0 0 0 0;
+	height: 30vh;
+}
+footer #gradient{
+	height: 7px;
+	background-image: linear-gradient(to right, red, orange, yellow, rgb(69, 255, 1), rgb(0, 181, 0), rgb(0, 149, 255), blue, purple);
+}
+footer p{
+	font-family: 'Secular One', sans-serif;
+	text-align: center;
+	font-size: 20px;
 }
