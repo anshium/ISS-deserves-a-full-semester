@@ -1,7 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cabin&family=Changa+One&family=Comfortaa:wght@500&family=Delicious+Handrawn&family=EB+Garamond&family=Patua+One&family=Secular+One&family=Shadows+Into+Light+Two&family=Unna&display=swap');
 
 
+html{
+	scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+/*navbar part*/
 
+nav{
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	border-bottom: 2px solid black;
+	z-index: 100;
+}
+nav a{
+	text-decoration: none;
+	float: left;
+	color: black;
+	text-align: center;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Patua One', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* position: fixed; */
+}
+nav a:hover{
+	color: rgb(255, 164, 68);
+	transition: .2s ease .2s;
+}
+#current_page{
+	border-bottom:5px solid rgb(0, 0, 0);
+}
+
+.logo{
+	content: url("C:/Ansh/ISS/Project/Images/headset.png");
+	width: 50%;
+	margin: 0 0 0 0;
+}
+/* #below-nav-hr{
+	width: 100%;
+	position: fixed;
+} */
+#fire{
+	content: url("C:/Ansh/ISS/Project/Images/fire.png");
+	width: 20px;
+	margin: 0 0 0 0;
+}
 
 @keyframes slide1{
 
@@ -11,7 +68,7 @@
     }
     
     100%{
-        top: 17%;
+        top: 10%;
         left: 1.5%;
     }
 }
@@ -71,7 +128,7 @@
     }
     
     100%{
-        top: 20%;
+        top: 10%;
         left: 30%;
     }
 }
@@ -84,8 +141,8 @@
     }
     
     100%{
-        top: 63%;
-        left: 34%;
+        top: 55%;
+        left: 30%;
     }
 }
 
@@ -124,7 +181,7 @@
 
     
     100%{
-        top: 50%;
+        top: 55%;
         left: 76%;
     }
 }
@@ -137,7 +194,7 @@
     }
     
     100%{
-        top: 15%;
+        top: 10%;
         left: 76%;
     }
 }
@@ -150,36 +207,89 @@
     }
 
     100%{
-        top: 76%;
+        top: 85%;
         left: 1.5%;
     }
+}
+
+body{
+    margin: 0 0 0 0;
+}
+#artists div img{
+    width: 100%;
+}
+
+#Artist1 img{
+    content: url("C:/Ansh/ISS/Project/Images/gopi.jpg");
+    
+}
+
+#Artist4 img{
+    content: url("C:/Ansh/ISS/Project/Images/shreya_ghosal_final.jpg");
+}
+
+#Artist5 img{
+    content: url("C:/Ansh/ISS/Project/Images/shaan_final.jpg");}
+
+#Artist6 img{
+    content: url("C:/Ansh/ISS/Project/Images/arijit_final.jpg");
+    height: 85%;
+}
+
+#Artist7 img{
+    content: url("C:/Ansh/ISS/Project/Images/imagine_draculas_final.jpg");}
+
+#Artist8 img{
+    content: url("C:/Ansh/ISS/Project/Images/coldplay.png");}
+
+#Artist9 img{
+    content: url("C:/Ansh/ISS/Project/Images/one_direction.jpg");}
+
+#Artist10 img{
+    content: url("C:/Ansh/ISS/Project/Images/the_beatles.jpg");}
+
+#Artist11 img{
+    content: url("C:/Ansh/ISS/Project/Images/shankar_final.jpg");}
+.one_artist{
+    color: black;
+    font-family: 'Secular One', sans-serif;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+
+}
+.one_artist img{
+    border-radius: 5% 5% 5% 5%;
+    border: 4px solid rgb(79, 215, 0);
+}
+.colorspan{
+	color:rgb(79, 215, 0);
 }
 
 #Artist1{
     animation: slide1 1s ease 0s 1 normal forwards;
     position: absolute;
     text-align: center;
-    background-color: gray;
+    /* background-color: gray; */
     color: white;
     padding: 10px;
     border-radius: 5px;
     width: 26.543878657%;
     height: 55.785123967%;
-    font-size: 30px;
     transition: 0.3s;
     
     
-} 
+}
 #Artist1:hover{
     width: 27.085590466%;
     height: 56.818181818%;
     transform: translate(-0.270855905%, -0.516528926%);
-} 
+}
 #Artist2{
     animation: slide2 1s ease 0s 1 normal forwards;
     position: absolute;
     transition: 0.3s;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -197,7 +307,7 @@
     animation: slide3 1s ease 0s 1 normal forwards;
     position: absolute;
     
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -219,14 +329,12 @@
     animation: slide4 1s ease 0s 1 normal forwards;
     position: absolute;
     transition: 0.3s;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 10px;
     border-radius: 5px;
     width: 11.105092091% ;
     height: 25.826446281%;
-    
-    
 }
 
 #Artist4:hover{
@@ -238,17 +346,13 @@
 #Artist5{
     animation: slide5 1s ease 0s 1 normal forwards;
     position: absolute;
-    
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 10px;
     border-radius: 5px;
     width: 11.105092091%;
     height: 25.826446281%;
     transition: 0.3s;
-   
-    
-
 }
 #Artist5:hover{
     width: 11.6468039%;
@@ -260,16 +364,13 @@
     animation: slide6 1s ease 0s 1 normal forwards;
     position: absolute;
     text-align: center;
-    background-color: gray;
+    /* background-color: gray; */
     color: white;
     padding: 10px;
     border-radius: 5px;
     width: 17.876489707%;
     height: 39.256198347%;
-    font-size: 30px;
     transition: 0.3s;
-    
-    
 }
 
 #Artist6:hover{
@@ -282,20 +383,17 @@
     animation: slide7 1s ease 0s 1 normal forwards;
     position: absolute;
     text-align: center;
-    background-color: gray;
+    /* background-color: gray; */
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 13.542795233%;
-    height: 30.991735537%;
-    font-size: 30px;
+    width: 17.876489707%;
+    height: 39.256198347%;
     transition: 0.3s;
-    
-    
 }
 #Artist7:hover{
-    width: 14.084507042%;
-    height: 32.024793388;
+    height: 40.289256198%;
+    width: 18.418201517%;
     transform: translate(-0.270855905%, -0.516528926%);
 }
 
@@ -303,7 +401,7 @@
     animation: slide8 1s ease 0s 1 normal forwards;
     position: absolute;
     transition: 0.3s;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -323,7 +421,7 @@
     animation: slide9 1s ease 0s 1 normal forwards;
     position: absolute;
     transition: 0.3s;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -342,13 +440,12 @@
     animation: slide10 1s ease 0s 1 normal forwards;
     position: absolute;
     text-align: center;
-    background-color: gray;
+    /* background-color: gray; */
     color: white;
     padding: 10px;
     border-radius: 5px;
     width: 17.876489707%;
     height: 39.256198347%;
-    font-size: 30px;
     transition: 0.3s;
     
     
@@ -364,20 +461,20 @@
     animation: slide11 1s ease 0s 1 normal forwards;
     position: absolute;
     text-align: center;
-    background-color: gray;
+    /* background-color: gray; */
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 13.542795233%;
-    height: 30.991735537%;
-    font-size: 30px;
+    width: 17.876489707%;
+    height: 39.256198347%;
+    font-size: 20px;
     transition: 0.3s;
     
     
 }
 #Artist11:hover{
-    width: 14.084507042%;
-    height: 32.024793388%;
+    height: 40.289256198%;
+    width: 18.418201517%;
     transform: translate(-0.270855905%, -0.516528926%);
 }
 #text{
@@ -386,7 +483,7 @@
     
     width: 24.377031419%;
     height: 25.826446281%;
-    color: black;
+    color: white;
     position: absolute;
     font-size: 3.2vw;
     border-radius: 5px;
@@ -400,11 +497,35 @@
     font-size: 3.7vw;
     width: 26.543878657%;
     height: 7.231404959%;
-    color: black;
+    color: white;
     
     border-radius: 5px;
     padding: 10px;
     font-family: 'Changa One';
     text-align: center;
 
+}
+
+#artists{
+    height: 100vh;
+}
+
+/*Footer*/
+footer{
+	background-color: rgb(234, 234, 234);
+    bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	margin: 0 0 0 0;
+	height: 30vh;
+}
+footer #gradient{
+	height: 7px;
+	background-image: linear-gradient(to right, red, orange, yellow, rgb(69, 255, 1), rgb(0, 181, 0), rgb(0, 149, 255), blue, purple);
+}
+footer p{
+	font-family: 'Secular One', sans-serif;
+	text-align: center;
+	font-size: 20px;
 }
