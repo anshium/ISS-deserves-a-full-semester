@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cabin&family=Changa+One&family=Comfortaa:wght@500&family=Delicious+Handrawn&family=EB+Garamond&family=Patua+One&family=Secular+One&family=Shadows+Into+Light+Two&family=Unna&display=swap');
 
-/*navbar part*/
-@import url('https://fonts.googleapis.com/css2?family=Patua+One');
+
 html{
 	scroll-behavior: smooth;
-	
 }
-body{
-	overflow-y: hidden;
-}
+
+/*navbar part*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One');
 nav{
 	background-color: rgb(255, 255, 255);
 	overflow: hidden;
@@ -44,6 +42,7 @@ nav a:hover{
 #current_page{
 	border-bottom:5px solid rgb(0, 0, 0);
 }
+
 .logo{
 	content: url("C:/Ansh/ISS/Project/Images/headset.png");
 	width: 50%;
@@ -56,85 +55,97 @@ nav a:hover{
 #fire{
 	content: url("C:/Ansh/ISS/Project/Images/fire.png");
 	width: 20px;
+	margin: 0 0 0 0;
+}
+#top{
+    width: 95%;
+    height: 30%;
+    padding-left: 5%;
+    position: absolute;
+    margin-top: 5%;
+    /* padding-top: 1%; */
+    /* padding-bottom: 1%; */
+    /* padding-right: 20%; */
+    background-color: rgb(235,235,235);
 }
 
-:root{
-	--clr: rgb(255, 255, 255);
+body{
+    margin: 0 0 0 0;
 }
 
-/**Artist Div**/
-.artist{
+#description{
+    width: 70%;
+    position: relative;
+    height:80%;
+    border: 1px solid black;
+    float: left;
+    top: 10%;
+
+}
+
+@keyframes slide_in{
+    0%{
+        top: 47%;
+        left:-100%;
+    }
+    100%{
+        top: 47%;
+        left: -3%;
+    }
+}
+
+#train{
+    height: 40%;
+    position: absolute;
+    width: 100%;
+    padding-top: 2%;
+    animation: slide_in 1s ease-out 0s 1 normal forwards;
+}
+
+#album{
+    position: relative;
+    height: 60%;
+    width: 12%;
+    border: 1px solid black;
+    float:right;
+    border-radius: 5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 0.5%;
+}
+
+#train_engine{
+	content: url("C:/Ansh/ISS/Project/Images/train_engine_2.png");
+	height: 70%;
+	float: right;
 	position: relative;
-	width: 33%;
+	/* margin-top: 3%; */
+}
+
+#all{
 	height: 100vh;
-	border-right: 3px solid rgb(0, 0, 0);
-	float: left;
 }
-.artist .main_picture{
-	content: url("C:/Ansh/ISS/Project/Images/shaan_no_bg.png");
-	width: 100%;
-	position: relative;
-	margin-top: 50px;
-	/* border:3px solid rgb(247, 0, 255); */
-}
-.description{
-	font-family: 'EB Garamond', serif;
-	font-size: 25px;
-}
+
 .colorspan{
 	color:rgb(79, 215, 0);
 }
-.all_albums{
-	width: 66%;
-	height: 100vh;
-	position: relative;
-	margin-top: 50px;
-	float: right;
-	overflow-y: scroll;
-	/* display: inline-block; */
-}
-.all_albums .album{
-	font-family: 'EB Garamond', serif;
-	font-size: 15px;
-	margin-top: 10px;
-	margin-left: 20%;
-	margin-right: 20%;
-	border: 3px solid rgb(31, 102, 9);
-	/* padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px; */
-}
-/* .all_albums{
-	font-family: 'EB Garamond', serif;
-	font-size: 20px;
-} */
-/* .album{
-	margin-left: 20%;
-	margin-right: 20%;
-	/* margin: 0 0 0 0; */
-	/* padding: 0 0 0 0;
-	
-} */
-.album .title{
-	background-color: rgb(252, 118, 106);
+/*Footer*/
+footer{
+	background-color: rgb(234, 234, 234);
+
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
 	margin: 0 0 0 0;
-	padding: 15px 15px 15px 15px;
+	height: 30vh;
+}
+footer #gradient{
+	height: 7px;
+	background-image: linear-gradient(to right, red, orange, yellow, rgb(69, 255, 1), rgb(0, 181, 0), rgb(0, 149, 255), blue, purple);
+}
+footer p{
 	font-family: 'Secular One', sans-serif;
 	text-align: center;
-}
-
-.album .desc{
-	font-family: 'Secular One', sans-serif;
-	padding-left: 5%;
-	padding-right: 5%;
-}
-
-.album .song_count{
-	background-color: rgb(0, 128, 255);
-	color: rgb(255, 255, 255);
-	font-family: 'Secular One', sans-serif;
-	margin: 0px 0px 0px 0px;
-	padding: 15px 15px 15px 15px;
-	text-align: center;
+	font-size: 20px;
 }
