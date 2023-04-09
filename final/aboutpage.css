@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cabin&family=Changa+One&family=Comfortaa:wght@500&family=Delicious+Handrawn&family=EB+Garamond&family=Patua+One&family=Secular+One&family=Shadows+Into+Light+Two&family=Unna&display=swap');
+
+/*navbar part*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One');
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url("images/aboutpage_bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 0 0 0;
+}
+nav{
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	border-bottom: 2px solid black;
+	z-index: 100;
+}
+nav a{
+	text-decoration: none;
+	float: left;
+	color: black;
+	text-align: center;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Patua One', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* position: fixed; */
+}
+nav a:hover{
+	color: rgb(255, 164, 68);
+	transition: .2s ease .2s;
+}
+#current_page{
+	border-bottom:5px solid rgb(0, 0, 0);
+}
+
+.logo{
+	content: url("images/headset.png");
+	width: 50%;
+	margin: 0 0 0 0;
+}
+/* #below-nav-hr{
+	width: 100%;
+	position: fixed;
+} */
+#fire{
+	content: url("images/fire.png");
+	width: 20px;
+}
+/*About Page CSS*/
+#title_artist{
+	width: 40%;
+	float: right;
+	margin-top: 30px;
+	content: url("images/shaan_no_bg.png");
+	/* margin: 0% 0% 0% 0%; */
+	/* display: inline-block; */
+}
+#initial{
+	margin-left: 30px;
+	height: 100vh;
+	/* height: 85vh; */
+}
+#the_bold_title{
+	color: rgb(0, 0, 0);
+	font-size: 100px;
+	font-family: 'Changa One', cursive;
+	/* margin-top: 100px; */
+	margin-bottom: 0%;
+}
+#intro_text{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	/* margin-bottom: 0px; */
+}
+
+#below-intro-buttons h3{
+	font-family: 'EB Garamond', serif;
+	display: inline-block;
+	margin-left: 0px;
+	/* margin-bottom: 0px; */
+}
+
+#below-intro-buttons #button1{
+	background: fixed;
+	background-color: rgb(140, 255, 0);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/* margin-bottom: 0px; */
+}
+a{
+	text-decoration: none;
+	color: rgb(70, 70, 70);
+	/* margin-bottom: 0px; */
+}
+
+#north_east{
+	content: url("images/north_east.png");
+	width: 15px;
+}
+/*Part 2*/
+#part_2{
+	background-color: rgb(235, 235, 235);
+	padding-left: 2%;
+	/* height: 100vh; */
+	/* overflow: hidden; */
+}
+#part_2_title{
+	color: rgb(0, 0, 0);
+	font-size: 100px;
+	font-family: 'Changa One', cursive;
+	margin-bottom: 0px;
+	margin-right: 2%;
+	text-align: left;
+	/* margin-top: 50px; */
+	vertical-align: center;
+}
+#part_2_text{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	margin-right: 2%;
+	text-align: left;
+}
+
+#page_2_img1{
+	content: url("images/songify.png");
+	width: 35%;
+	border-radius: 10%;
+	margin-left: 30px;
+	position: relative;
+	float: right;
+	margin-top: 6%;
+}
+#page_2_img2{
+	content: url("");
+	width: 25%;
+	border-radius: 10%;
+	margin-left: 30px;
+}
+#page_2_img3{
+	float: right;
+	content: url("images/colorful_headphones.png");
+	width: 30%;
+	border-radius: 10%;
+	margin-left: 30px;
+}
+/*Part 3*/
+#part_3{
+	background-color: rgb(255, 255, 255);
+	padding-left: 2%;
+	height: 100vh;
+}
+#part_3_title{
+	color: rgb(0, 0, 0);
+	font-size: 100px;
+	font-family: 'Changa One', cursive;
+	margin-bottom: 0px;
+	margin-right: 2%;
+}
+#part_3_text{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	margin-right: 2%;
+}
+
+#page_3_img1{
+	content: url("C:/Ansh/ISS/Project/Images/tabla.jpg");
+	width: 25%;
+	border-radius: 10%;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+#page_3_img2{
+	content: url("C:/Ansh/ISS/Project/Images/piano.jpg");
+	width: 25%;
+	border-radius: 10%;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+#page_3_img3{
+	content: url("C:/Ansh/ISS/Project/Images/guitar.jpg");
+	width: 30%;
+	border-radius: 10%;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+#name_and_emails{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#raveesh{
+	float: right;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+}
+
+#raveesh img{
+	content: url("images/raveesh.jpeg");
+	width: 50%;
+	border-radius: 50%;
+	position: relative;
+	margin-right:5%;
+}
+
+#ansh{
+	float: left;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+}
+
+#ansh img{
+	content: url("images/ansh.jpg");
+	width: 50%;
+	border-radius: 50%;
+	position: relative;
+	margin-right:5%;
+}
+
+/*Footer*/
+footer{
+	background-color: rgb(234, 234, 234);
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	margin: 0 0 0 0;
+	height: 30vh;
+}
+footer #gradient{
+	height: 7px;
+	background-image: linear-gradient(to right, red, orange, yellow, rgb(69, 255, 1), rgb(0, 181, 0), rgb(0, 149, 255), blue, purple);
+}
+footer p{
+	font-family: 'Secular One', sans-serif;
+	text-align: center;
+	font-size: 20px;
+}

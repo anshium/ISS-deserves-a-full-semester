@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cabin&family=Changa+One&family=Comfortaa:wght@500&family=Delicious+Handrawn&family=EB+Garamond&family=Patua+One&family=Secular+One&family=Shadows+Into+Light+Two&family=Unna&display=swap');
+
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url("images/bg_5.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 0 0 0;
+}
+/*navbar part*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One');
+nav{
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	border-bottom: 2px solid black;
+	z-index: 100;
+}
+nav a{
+	text-decoration: none;
+	float: left;
+	color: black;
+	text-align: center;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Patua One', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* position: fixed; */
+}
+nav a:hover{
+	color: rgb(255, 164, 68);
+	transition: .2s ease .2s;
+}
+#current_page{
+	border-bottom:5px solid rgb(0, 0, 0);
+}
+
+.logo{
+	content: url("images/headset.png");
+	width: 50%;
+	margin: 0 0 0 0;
+}
+/* #below-nav-hr{
+	width: 100%;
+	position: fixed;
+} */
+#fire{
+	content: url("images/fire.png");
+	width: 20px;
+	margin: 0 0 0 0;
+}
+
+#top_songs{
+	margin-bottom: 20%;
+}
+
+.top_charts{
+	position: relative;
+	margin-top: 70px;
+	align-items: center;
+}
+
+.top_charts p{
+	font-family: 'Changa One', cursive;
+	font-size: 50px;
+	margin-left: 30px;
+	border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+#main_photo{
+	content: url("images/songify.png");
+	float: right;
+	position: relative;
+	width: 50%;
+}
+
+/*Emptiness Adder*/
+#emptiness_adder{
+	position: relative;
+	margin-top: 80px;
+	margin-left: 30px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	height: 100vh;
+}
+#emptiness_adder p{
+	text-align: left;
+	font-family: 'Changa One', cursive;
+	font-size: 100px;
+	margin: 0 0 0 0;
+	text-transform: uppercase;
+}
+#intro_text{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	/* margin-bottom: 0px; */
+}
+.loop{
+	content: url("images/loop.jpg");
+	width: 100px;
+	position: relative;
+	margin: 0 0 0 0;
+	display: inline-flex;
+}
+.ease_links{
+	text-align: center;
+	margin-top: 40vh;
+	/* margin-bottom: 10px; */
+}
+.ease_links a{
+	/* display: block; */
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	font-size: 25px;
+	font-family: 'Secular One', sans-serif;
+	/* background-color: rgb(255, 132, 0); */
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/* text-transform: uppercase; */
+	border-radius: 10px 10px 10px 10px;
+}
+.ease_links a:hover{
+	opacity: 0.5;
+	transition: .2s ease .1s;
+}
+.down_arrow{
+	content: url("images/down.png");
+	width: 20px;
+}
+
+/*Artists*/
+#artists{
+	position: relative;
+	margin-top: 50px;
+}
+.artist{
+	padding: 10px 10px 10px 10px;
+	margin-top: 0px;
+	transition: 0.3s;
+}
+.artist:hover{
+	height: 23%;
+	transform: translateY(-1.5%);
+}
+#artist1{
+	content: url("images/shaan_final.jpg");
+	width: 20%;
+	border-radius: 20%;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 0px;
+	/* heigh */
+}
+#artist2{
+	content: url("images/imagine_draculas_final.jpg");
+	width: 20%;
+	
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20%;
+
+}
+#artist3{
+	content: url("images/one_direction.jpg");
+	width: 20%;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20%;
+
+}
+
+/*Albums*/
+.album{
+	padding: 10px 10px 10px 10px;
+	transition: 0.3s;
+}
+.album:hover{
+	height: 23%;
+	transform: translateY(-1.5%);
+}
+#album1{
+	content: url("images/evolve.jpg");
+	width: 20%;
+	border-radius: 20%;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 0px;
+	/* heigh */
+}
+#album2{
+	content: url("images/midnight_memories.jpeg");
+	width: 20%;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20%;
+
+}
+#album3{
+	content: url("images/Grove_with_arijit_singh.jpeg");
+	width: 20%;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20%;
+
+}
+
+/*Songs*/
+.song{
+	width: 70%;
+	height:200px;
+	background-color: rgb(255, 255, 255);
+	font-family: Secular One;
+	position: relative;
+	left:15%;
+	border:4px solid rgb(79, 215, 0);
+	margin: 20px 20px 20px 20px;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+.song img{
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+.song h1{
+	top:20%;
+	left:2%;
+	font-size: 20px;
+	position: relative;
+	font-family: "Secular One";
+}
+
+
+.colorspan{
+	color:rgb(79, 215, 0);
+}
+/*Footer*/
+footer{
+	background-color: rgb(234, 234, 234);
+
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	margin: 0 0 0 0;
+	height: 30vh;
+}
+footer #gradient{
+	height: 7px;
+	background-image: linear-gradient(to right, red, orange, yellow, rgb(69, 255, 1), rgb(0, 181, 0), rgb(0, 149, 255), blue, purple);
+}
+footer p{
+	font-family: 'Secular One', sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
