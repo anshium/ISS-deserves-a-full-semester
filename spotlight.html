@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            Artist Spotlight
+        </title>
+        <link href = "spotlight.css" rel = "stylesheet">
+    </head>
+    <body>
+        <nav>
+            <a href = "homepage.html"><img class = "logo"></a>
+            <a href = "homepage.html" >Home</a>
+            <a href = "homepage.html#top_artists_anchor">Trending <img id = "fire"></a>
+            <a href = "artists.html" id = "current_page">Artists</a>
+            <a href = "aboutpage.html">About</a>
+        </nav>
+        <div id = "artist">
+            <img src = "images/imagine_draculas_final.jpg" id = "artist_image">
+            
+        </div>
+        <p id = "type_effect"></p>
+        <div id = "description">
+
+        </div>
+        <div id="message">W</div>
+
+        <div id = "release">
+            <img id = "release_song" src = "images/Music_of_the_spheres.jpeg">
+            <h1 id = "Album_name">
+                Moon Music releasing in :
+            </h1>
+             
+            <p id = "countdown"><span id = "days"></span><span id = "rest"></span></p>
+            
+        </div>
+        <div id = "review">
+            <div id = "show_info">
+            <img src = "images/info_card.png">
+            <div id="info">Any reviews you make are publicly visible to everyone on this website. However, we won't share your name to any third party, except for ISS TA's</div>
+            </div>
+            
+            <p>Drop a Review!</p>
+            <form id = "myForm">
+                <label for="name" id = "name">Name:</label>
+                <input type="text" id="name_text_box" name="name" placeholder="Enter your name"><br><br>
+              
+                <label class = "Rating">Rating:</label><br>
+                <input type="radio" id="rating-1" name="rating" value="&#11088;" class = "rating">
+                <label for="rating-1" class = "rating_star">&#11088;</label><br>
+                <input type="radio" id="rating-2" name="rating" value="&#11088;&#11088;" class = "rating">
+                <label for="rating-2" class = "rating_star">&#11088;&#11088;</label><br>
+                <input type="radio" id="rating-3" name="rating" value="&#11088;&#11088;&#11088;" class = "rating">
+                <label for="rating-3" class = "rating_star">&#11088;&#11088;&#11088;</label><br>
+                <input type="radio" id="rating-4" name="rating" value="&#11088;&#11088;&#11088;&#11088;" class = "rating">
+                <label for="rating-4" class = "rating_star">&#11088;&#11088;&#11088;&#11088;</label><br>
+                <input type="radio" id="rating-5" name="rating" value="&#11088;&#11088;&#11088;&#11088;&#11088;" class = "rating">
+                <label for="rating-5" class = "rating_star">&#11088;&#11088;&#11088;&#11088;&#11088;</label><br><br>
+              
+                <label for="review" class = "review">Review:</label><br>
+                <textarea id = "review_text_box" class = "review_text" placeholder="Write a review (max 500 characters) " maxlength="500" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Submit" id = "submit">
+              </form>
+              
+              
+        </div>
+        <div id = "table">
+            <h1>Your review:</h1>
+            <table>
+                <tr>
+                    <td id = "table_name" valign="top"></td>
+                </tr>
+                <tr >
+                    <td id = "table_rating" valign="top"></td>
+                </tr>
+                <tr>
+                    <td id = "table_review" valign="top"></td>
+                </tr>
+                
+            </table>
+        </div>
+        <script src = "spotlight.js"></script>
+    </body>
+</html>
+
+
+
+
+
