@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Your Playlist
+        </title>
+        <link rel="stylesheet" href="playlist.css">
+
+    </head>
+    <body>
+        <nav>
+			<a href = "homepage.html" class = "navbar"><img class = "logo"></a>
+			<a href = "homepage.html" class = "navbar">Home</a>
+			<a href = "homepage.html#top_artists_anchor" class = "navbar">Trending <img id = "fire"></a>
+			<a href = "artists.html" id = "current_page" class = "navbar">Artists</a>
+			<a href = "aboutpage.html" class = "navbar">About</a>
+			<a href = "searchpage.html" class = "navbar">Search</a>
+			<a href = "spotlight.html" class = "navbar">Artist Spotlight</a>
+            <a href = "{% url_for('playlist') %}" class = "navbar">Your Playlist</a>
+		</nav>
+
+        {% block content %}
+        {% if message %}
+            <div id="noSongs">
+                <h1>No songs added</h1>
+            </div>
+        {% else %}
+
+            <div id = "yourplaylist"><h1>Your Playlist</h1></div>
+            <div id = "songs">
+                <ol type="1">
+                    
+                    {% for song in songs %}
+                        <li>
+                            {{ song[0] }}
+                            <form method="post" action="{{ url_for('remove_song', song_name=song[0]) }}">
+                                <input type="submit" value="Remove" id="myButton">
+                            </form>
+                        </li>
+                    {% endfor %}
+                    
+                    
+                </ol>
+
+            </div>
+        {% endif %}
+        {% endblock %}
+    </body>
+</html>
