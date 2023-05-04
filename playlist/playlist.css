@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cabin&family=Changa+One&family=Comfortaa:wght@500&family=Delicious+Handrawn&family=EB+Garamond&family=Patua+One&family=Secular+One&family=Shadows+Into+Light+Two&family=Unna&display=swap');
+
+nav{
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	border-bottom: 2px solid black;
+	z-index: 100;
+}
+nav a{
+	text-decoration: none;
+	float: left;
+	color: black;
+	text-align: center;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Patua One', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* position: fixed; */
+}
+nav a:hover{
+	color: rgb(255, 164, 68);
+	transition: .2s ease .2s;
+}
+#current_page{
+	border-bottom:5px solid rgb(0, 0, 0);
+    
+}
+
+.logo{
+	content: url("images/headset.png");
+	width: 50%;
+	margin: 0 0 0 0;
+}
+/* #below-nav-hr{
+	width: 100%;
+	position: fixed;
+} */
+#fire{
+	content: url("images/fire.png");
+	width: 20px;
+	margin: 0 0 0 0;
+}
+
+
+body{
+    background-color: black;
+    color:white;
+}
+
+#everything{
+    font-family: Changa One;
+    top: 5%;
+    left: 10%;
+    position: absolute;
+
+}
+
+#everything h1{
+    font-size: 600%;
+
+}
+
+#songs{
+    font-size: 300%;
+    left: 20%;
+    top: 30%;
+    position: absolute;
+}
+
+#songs.scroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#yourplaylist{
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    width: 100%;
+    font-family: Changa One;
+    top:10%;
+    padding-left: 10%;
+
+}
+
+#yourplaylist h1{
+    font-size: 600%;
+
+}
+
+#myButton{
+    float:right;
+    font-family: Secular One;
+    color: white;
+    background-color: black;
+    border:none;
+    transition: 0.2s linear;
+    border-radius: 5px;
+
+}
+
+#myButton:hover{
+    color:black;
+    background-color: white;
+}
+
+li{
+    width:200%;
+}
+
+#noSongs h1{
+    font-family: Changa One;
+    top: 10%;
+    left: 20%;
+    color: white;
+    position: absolute;
+    font-size: 300%;
+}
+
